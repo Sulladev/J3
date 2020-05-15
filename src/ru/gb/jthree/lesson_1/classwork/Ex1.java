@@ -1,4 +1,4 @@
-package ru.gb.jthree.lesson1.classwork;
+package ru.gb.jthree.lesson_1.classwork;
 
 public class Ex1 {
     //Generics

@@ -1,4 +1,4 @@
-package ru.gb.jthree.lesson1.homework;
+package ru.gb.jthree.lesson_1.homework;
 
 /*
 Написать метод, который преобразует массив в ArrayList;

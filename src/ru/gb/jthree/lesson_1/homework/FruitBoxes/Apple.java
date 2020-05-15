@@ -1,4 +1,4 @@
-package ru.gb.jthree.lesson1.homework.FruitBoxes;
+package ru.gb.jthree.lesson_1.homework.FruitBoxes;
 
 public class Apple extends Fruit {
 

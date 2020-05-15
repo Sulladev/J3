@@ -1,4 +1,6 @@
-package ru.gb.jthree.lesson1.homework.FruitBoxes;
+package ru.gb.jthree.lesson_1.homework.FruitBoxes;
+
+import com.sun.istack.internal.NotNull;
 
 import java.util.ArrayList;
 
@@ -30,4 +32,16 @@ public class Box <T extends Fruit> {
     public boolean compare (Box<? extends Fruit> anotherBox) {
         return this.getWeight() > anotherBox.getWeight();
     }
+
+    public void dropFruits(@NotNull Box<? extends Fruit> otherBox) {
+        if (whatFruit.getClass() != otherBox.whatFruit.getClass()) {
+            throw new DropException();
+        }
+        for (Fruit fruit : otherBox.fruits) {
+            addFruits((T) fruit);
+        }
+        otherBox.fruits.clear();
+        otherBox.weight = 0;
+    }
+
 }
