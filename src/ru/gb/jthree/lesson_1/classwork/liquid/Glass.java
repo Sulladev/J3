@@ -1,4 +1,4 @@
-package ru.gb.jthree.lesson1.classwork.liquid;
+package ru.gb.jthree.lesson_1.classwork.liquid;
 
 public class Glass <T extends Liquid> {
     private T liquid;

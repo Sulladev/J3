@@ -1,7 +1,4 @@
-package ru.gb.jthree.lesson1.classwork;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package ru.gb.jthree.lesson_1.classwork;
 
 public class Pair <K, V> {
     private K key;
